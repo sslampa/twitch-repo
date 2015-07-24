@@ -7,9 +7,9 @@ The dataset for this project comes from web scraping the Twitch site every ten m
 
 #### Variables
 There are three main variables that will be seen in each section: current_viewers, followers, and count. 
-* current_viewers - In the original dataset, this variable will be the amount of viewers at the moment of data collection. When aggregated, it is the average of all those periods of viewer data collection.
-* followers - The same as above, but with the followers. Twitch includes a followers feature where a viewer can 'follow' their favorite streamer and, by following, alerts the viewer of when that streamer is streaming. 
-* count - This counts the amount of periods a streamer streams. Each period is every ten minutes (i.e. 10:00, 10:10, 10:20, etc), when the data is scraped from the Twitch website.
+* __current_viewers__ - In the original dataset, this variable will be the amount of viewers at the moment of data collection. When aggregated, it is the average of all those periods of viewer data collection.
+* __followers__ - The same as above, but with the followers. Twitch includes a followers feature where a viewer can 'follow' their favorite streamer and, by following, alerts the viewer of when that streamer is streaming. 
+* __count__ - This counts the amount of periods a streamer streams. Each period is every ten minutes (i.e. 10:00, 10:10, 10:20, etc), when the data is scraped from the Twitch website.
 
 ## 3. Comparisons
 There are two specific pages that show comparisons between the population and each team.
